@@ -1,0 +1,62 @@
+/* Map styling for game2 */
+.game-map{
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+    border-radius: 16px;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(65,143,222,0.18), transparent 35%),
+        radial-gradient(circle at 80% 30%, rgba(0,103,71,0.18), transparent 35%),
+        url("https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg"),
+        linear-gradient(135deg, #0b1c2f 0%, #0f1f33 60%, #0a1423 100%);
+    background-size: 100% 100%, 100% 100%, cover, 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.05), 0 18px 45px rgba(0,0,0,0.35);
+    cursor: crosshair;
+}
+
+.map-grid{
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 10% 10%;
+    pointer-events: none;
+}
+
+.map-marker{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #418FDE, #006747);
+    border: 2px solid rgba(255,255,255,0.8);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.35);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+.map-marker:hover{
+    transform: translate(-50%, -50%) scale(1.1);
+    box-shadow: 0 12px 25px rgba(65,143,222,0.4);
+}
+
+.marker-correct{
+    background: linear-gradient(135deg, #34d399, #10b981);
+    border-color: #c7ffee;
+}
+
+.marker-wrong{
+    background: linear-gradient(135deg, #ef4444, #f87171);
+    border-color: #ffe0e0;
+}
+
+.marker-guess{
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    border-color: #fff6d9;
+}

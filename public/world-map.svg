@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-label="Simplified world map">
+  <defs>
+    <linearGradient id="sea" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1c2f"/>
+      <stop offset="50%" stop-color="#0f1f33"/>
+      <stop offset="100%" stop-color="#0a1423"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="500" fill="url(#sea)"/>
+  <g fill="#2e9b6f" opacity="0.85">
+    <path d="M80 200 L160 180 L210 200 L240 240 L200 270 L120 260 Z"/>
+    <path d="M260 160 L340 150 L400 180 L390 220 L330 230 L280 210 Z"/>
+    <path d="M430 170 L520 160 L560 200 L520 230 L450 220 Z"/>
+    <path d="M600 150 L700 160 L740 190 L700 220 L640 210 Z"/>
+    <path d="M760 170 L840 180 L880 200 L850 240 L790 230 Z"/>
+    <path d="M300 280 L360 300 L380 340 L320 350 L280 320 Z"/>
+    <path d="M520 270 L600 280 L620 320 L560 330 L510 300 Z"/>
+    <path d="M700 280 L780 290 L800 320 L760 340 L710 320 Z"/>
+    <path d="M860 260 L930 270 L940 300 L900 320 L850 300 Z"/>
+    <path d="M120 330 L180 340 L190 380 L140 400 L100 360 Z"/>
+    <path d="M220 360 L270 370 L280 410 L240 420 L200 380 Z"/>
+  </g>
+</svg>

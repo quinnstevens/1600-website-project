@@ -1,0 +1,77 @@
+/*
+h1 strong {
+    text-shadow: 1px 1px 0px #418FDE, 2px 2px 0px #006747, 3px 3px 0px #418FDE;
+    background-image: linear-gradient(90deg, #418FDE, #006747);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left 1.3em;
+    padding-block: .25em;
+
+    transition: 1000ms;
+}
+h1 strong:hover,
+h1 strong:focus{
+    color: #004d35;
+    background-size: 100% 3px;
+}*/
+
+
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    color: #006747;
+    text-decoration: none;
+    background: white;
+    padding: .75em 2.5em;
+
+    outline: 2px solid currentColor;
+    outline-offset: -4px;
+    border: 3px solid transparent;
+
+    transition: 500ms;
+}
+
+.btn:hover,
+.btn:focus{
+    border-color: #2a76c3;
+
+    color:white;
+    outline-offset: 0px;
+    background: #418FDE;
+}
+
+
+.box1{
+    background-color: white;
+    transition: 200ms;
+}
+
+.box1:hover,
+.box1:focus{
+    background-color: lightgrey;
+}
+
+.box2{
+    transition: 200ms;
+}
+
+.box2:hover,
+.box2:focus{
+    background-color: lightgrey;
+}
+
+.box3{
+    transition: 200ms;
+}
+
+.box3:hover,
+.box3:focus{
+    background-color: lightgrey;
+}
+
+/*
+.email-label{
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35);
+} */
